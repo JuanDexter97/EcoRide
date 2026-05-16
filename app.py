@@ -6,11 +6,11 @@ import numpy as np
 
 # Cargar el modelo y el pipeline de preprocesamiento
 try:
-    # Asegúrate de que los archivos .pkl estén en el mismo directorio que app.py
-    model = joblib.load('modelo_churn.pkl')
-    preprocessor = joblib.load('pipeline_preproc.pkl')
+    # Asegúrate de que los archivos .joblib estén en el mismo directorio que app.py
+    model = joblib.load('modelo_churn.joblib')
+    preprocessor = joblib.load('pipeline_preproc.joblib')
 except FileNotFoundError:
-    st.error("Error: Archivos 'modelo_churn.pkl' o 'pipeline_preproc.pkl' no encontrados. Asegúrate de que estén en el mismo directorio que app.py o proporciona la ruta completa.")
+    st.error("Error: Archivos 'modelo_churn.joblib' o 'pipeline_preproc.joblib' no encontrados. Asegúrate de que estén en el mismo directorio que app.py o proporciona la ruta completa.")
     st.stop()
 
 # Título de la aplicación
