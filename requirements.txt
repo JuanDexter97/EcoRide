@@ -5,7 +5,6 @@ scikit-learn
 joblib
 imbalanced-learn
 xgboost
-ydata-profiling
 matplotlib
 seaborn
 pyngrok
