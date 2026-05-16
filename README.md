@@ -1,2 +1,3 @@
 # EcoRide
-Ejercicio UniversitarioPredecir qu´e usuarios tienen una alta probabilidad latente de abandonar el servicio.
+Ejercicio Universitario para predecir qué usuarios tienen una alta probabilidad latente de abandonar el servicio
+de Eco-Ride
