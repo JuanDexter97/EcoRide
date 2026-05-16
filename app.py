@@ -22,7 +22,7 @@ st.write("Ingrese los datos del cliente para analizar el riesgo de cancelación.
 with st.form("churn_prediction_form"):
     st.subheader("Datos del Cliente")
 
-    edad = st.slider('Edad', min_value=0, max_value=90, value=30)
+    edad = st.slider('Edad', min_value=18, max_value=90, value=30)
     plan_options = ['Básico', 'Premium', 'Elite']
     plan = st.selectbox('Plan', options=plan_options)
     # Rangos ajustados basados en el análisis exploratorio de datos
